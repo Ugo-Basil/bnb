@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
 interface MenuItemProps {
-  onClick?: () => void;
-  label: string;
+  onClick?: () => void
+  label: string
 }
 
 const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
@@ -19,7 +19,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
     >
       {label}
     </div>
-  );
-};
+  )
+}
 
-export default MenuItem;
+export default MenuItem

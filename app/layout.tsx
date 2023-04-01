@@ -1,5 +1,5 @@
-import { Montserrat } from "next/font/google"
-import Navbar from "./components/navbar/Navbar"
+import { Montserrat } from 'next/font/google'
+import Navbar from './components/navbar/Navbar'
 import './globals.css'
 
 export const metadata = {
@@ -7,11 +7,9 @@ export const metadata = {
   description: 'BNB web app',
 }
 
-const font = Montserrat(
-  {
-    subsets: ['latin'],
-  }
-)
+const font = Montserrat({
+  subsets: ['latin'],
+})
 
 export default function RootLayout({
   children,
